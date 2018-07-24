@@ -1,0 +1,37 @@
+-- This file has been generated from package.yaml by hpack version 0.28.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: e480a081b96ed59e6ea6c3edd912a20893cc8cc65a635f175bd2488f17f02b3f
+
+name:           orgmode-export-completed
+version:        0.1.0.0
+author:         Chris Stryczynski
+maintainer:     Chris Stryczynski
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+extra-source-files:
+    ChangeLog.md
+
+executable orgmode-export-completed
+  main-is: Main.hs
+  other-modules:
+      Paths_orgmode_export_completed
+  hs-source-dirs:
+      src
+  build-depends:
+      attoparsec
+    , base >=4.10 && <4.11
+    , containers
+    , lens
+    , old-locale
+    , orgmode-parse
+    , orgmode-parse-print
+    , pretty-simple
+    , string-conversions
+    , text
+    , thyme
+    , unordered-containers
+  default-language: Haskell2010

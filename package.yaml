@@ -1,0 +1,25 @@
+executable:
+  source-dirs: src
+  main: Main.hs
+license-file: LICENSE
+build-type: Simple
+maintainer: Chris Stryczynski
+dependencies:
+- base >=4.10 && <4.11
+- orgmode-parse
+- attoparsec
+- text
+- pretty-simple
+- unordered-containers 
+- thyme
+- old-locale
+- orgmode-parse-print
+- string-conversions
+- containers
+#- time
+- lens
+name: orgmode-export-completed
+version: '0.1.0.0'
+extra-source-files: ChangeLog.md
+author: Chris Stryczynski
+license: BSD3
